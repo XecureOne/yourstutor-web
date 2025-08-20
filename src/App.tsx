@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div className='scroll-smooth'>
-      <BrowserRouter basename="/yourstutor">
+      <BrowserRouter>
               <Routes>
                 <Route path='/' element={<Index/>}></Route>
               </Routes>
