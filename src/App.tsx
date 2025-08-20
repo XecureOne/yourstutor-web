@@ -1,16 +1,16 @@
 import './App.css'
-import { Routes,Route, HashRouter } from 'react-router-dom'
+import { BrowserRouter,Routes,Route } from 'react-router-dom'
 import { Index } from './pages/Index'
 
 function App() {
 
   return (
     <div className='scroll-smooth'>
-      <HashRouter>
-        <Routes>
-          <Route path='/' element={<Index/>}></Route>
-        </Routes>
-    </HashRouter>
+      <BrowserRouter basename="/yourstutor">
+              <Routes>
+                <Route path='/' element={<Index/>}></Route>
+              </Routes>
+      </BrowserRouter>
     </div>
    
   )
