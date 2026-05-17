@@ -134,7 +134,31 @@ const ContactSection: React.FC = () => {
                       rel="noopener noreferrer"
                       className="text-white font-bold text-xl leading-relaxed group-hover:text-gray-200 transition-colors duration-300 hover:underline block"
                     >
-                      Smart Trade City, Kottakkal, Malappuram Dt., Kerala, India
+                      Kottakkal
+                    </a>
+                    <a
+                      href="https://maps.app.goo.gl/GB5GkVE2SzBeBo1VA"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-white font-bold text-xl leading-relaxed group-hover:text-gray-200 transition-colors duration-300 hover:underline block"
+                    >
+                      Kacherippadi
+                    </a>
+                    <a
+                      href="https://maps.app.goo.gl/FPaVSovEFf1K9UCC6?g_st=ac"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-white font-bold text-xl leading-relaxed group-hover:text-gray-200 transition-colors duration-300 hover:underline block"
+                    >
+                      Padaparamba
+                    </a>
+                    <a
+                      href="https://maps.app.goo.gl/cW5p8tppXBPmwTYc8?g_st=ac"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-white font-bold text-xl leading-relaxed group-hover:text-gray-200 transition-colors duration-300 hover:underline block"
+                    >
+                      Perinthalmanna
                     </a>
                   </div>
                 </div>
